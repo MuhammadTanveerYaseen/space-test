@@ -1,0 +1,58 @@
+Create a fully responsive, advanced-level agency website for a brand called GHLSPACE. The agency offers three core categories of services:
+
+GoHighLevel Services – CRM setup, workflow automation, funnel building, white-label SaaS, email/SMS automation, appointment scheduling, reputation management, etc.
+
+ClickFunnels Services – Funnel strategy, funnel design, A/B testing, integrations, upsell/downsell setup, and high-converting sales pages.
+
+Video Editing Services – Reels, shorts, long-form content, sales videos, YouTube editing, branding intros/outros, captions, and motion graphics.
+
+Design Requirements:
+
+Sleek, modern, and high-conversion design
+
+Consistent brand theme inspired by GHL and ClickFunnels UI aesthetics
+
+Use a clean sans-serif font (e.g., Poppins, Inter, or Montserrat)
+
+Colors: Use a fusion theme of GHL (blue shades, white, grey) and ClickFunnels (red/blue/black) blended smoothly
+
+Include smooth animations, modern gradients, and hover effects
+
+Responsive grid layout (desktop, tablet, mobile)
+
+Pages/Sections to Include:
+
+Home Page (hero, value proposition, CTA, preview of services)
+
+About Us (Mission, Vision, Team, Why GHLSPACE?)
+
+Services Page with 3 categories:
+
+GHL Services (list + details + CTA to book)
+
+ClickFunnels Services (list + details + CTA to book)
+
+Video Editing Services (list + examples + CTA to order)
+
+Portfolio/Case Studies (include funnel screenshots, before/after edits, GHL automation flows)
+
+Testimonials (carousel or grid)
+
+Book a Call / Get a Quote (Calendly embed or GHL form)
+
+Contact Page (form + map + contact info)
+
+Blog (optional, for SEO & tips)
+
+Header: Logo, Menu, CTA ("Book a Call")
+Footer: Quick links, social icons, branding statement, copyright
+
+Bonus:
+
+Animated hero headline with typing or scroll effects
+
+Scroll-triggered animations for each section
+
+Include real screenshots/mockups of GHL and ClickFunnels platforms (blur sensitive data)
+
+Make sure the site reflects trust, authority, and premium-level digital marketing expertise."
