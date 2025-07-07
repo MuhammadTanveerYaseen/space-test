@@ -128,6 +128,13 @@ GHLSPACE is a modern, full-stack React application built for a digital agency sp
 ## Changelog
 
 - July 07, 2025. Initial setup
+- July 07, 2025. Enhanced website with comprehensive trust-building features:
+  - Added detailed case study pages with real metrics and testimonials
+  - Implemented functional buttons throughout the site for smooth navigation
+  - Created live demo section with interactive video previews
+  - Added comprehensive pricing, FAQ, and certification sections
+  - Enhanced portfolio with clickable case studies
+  - Improved overall user experience with working CTAs
 
 ## User Preferences
 

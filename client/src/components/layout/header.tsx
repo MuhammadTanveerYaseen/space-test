@@ -39,7 +39,17 @@ export default function Header() {
               <button onClick={() => scrollToSection('contact')} className="text-slate-700 hover:text-[hsl(var(--ghl-blue))] transition-colors">Contact</button>
             </div>
             
-            <Button className="hidden md:inline-flex bg-gradient-to-r from-[hsl(var(--ghl-blue))] to-[hsl(var(--cf-red))] text-white px-6 py-3 font-semibold hover:scale-105 transition-transform">
+            <Button 
+              className="hidden md:inline-flex bg-gradient-to-r from-[hsl(var(--ghl-blue))] to-[hsl(var(--cf-red))] text-white px-6 py-3 font-semibold hover:scale-105 transition-transform"
+              onClick={() => {
+                const element = document.getElementById('contact');
+                if (element) {
+                  const headerHeight = 80;
+                  const targetPosition = element.offsetTop - headerHeight;
+                  window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+                }
+              }}
+            >
               Book a Call
             </Button>
             

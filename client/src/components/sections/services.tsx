@@ -94,7 +94,17 @@ export default function Services() {
                   </li>
                 ))}
               </ul>
-              <Button className={`w-full ${service.buttonColor} text-white py-3 font-semibold transition-all`}>
+              <Button 
+                className={`w-full ${service.buttonColor} text-white py-3 font-semibold transition-all`}
+                onClick={() => {
+                  const element = document.getElementById('contact');
+                  if (element) {
+                    const headerHeight = 80;
+                    const targetPosition = element.offsetTop - headerHeight;
+                    window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+                  }
+                }}
+              >
                 {service.buttonText}
               </Button>
             </motion.div>

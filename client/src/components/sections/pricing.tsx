@@ -66,7 +66,7 @@ export default function Pricing() {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section id="pricing" className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <motion.div 
           ref={ref}
@@ -119,6 +119,14 @@ export default function Pricing() {
                     ? 'bg-gradient-to-r from-[hsl(var(--ghl-blue))] to-[hsl(var(--cf-red))] text-white hover:scale-105' 
                     : 'bg-slate-900 text-white hover:bg-slate-800'
                 } transition-all`}
+                onClick={() => {
+                  const element = document.getElementById('contact');
+                  if (element) {
+                    const headerHeight = 80;
+                    const targetPosition = element.offsetTop - headerHeight;
+                    window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+                  }
+                }}
               >
                 {plan.buttonText}
               </Button>
@@ -133,7 +141,18 @@ export default function Pricing() {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <p className="text-slate-600 mb-4">Need a custom solution? Let's discuss your specific requirements.</p>
-          <Button variant="outline" className="border-2 border-[hsl(var(--ghl-blue))] text-[hsl(var(--ghl-blue))] px-8 py-3 font-semibold hover:bg-[hsl(var(--ghl-blue))] hover:text-white">
+          <Button 
+            variant="outline" 
+            className="border-2 border-[hsl(var(--ghl-blue))] text-[hsl(var(--ghl-blue))] px-8 py-3 font-semibold hover:bg-[hsl(var(--ghl-blue))] hover:text-white"
+            onClick={() => {
+              const element = document.getElementById('contact');
+              if (element) {
+                const headerHeight = 80;
+                const targetPosition = element.offsetTop - headerHeight;
+                window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+              }
+            }}
+          >
             Schedule Custom Quote
           </Button>
         </motion.div>

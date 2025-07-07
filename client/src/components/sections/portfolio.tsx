@@ -97,7 +97,14 @@ export default function Portfolio() {
                     </span>
                   ))}
                 </div>
-                <Button variant="link" className={`${item.buttonColor} font-semibold p-0 h-auto`}>
+                <Button 
+                  variant="link" 
+                  className={`${item.buttonColor} font-semibold p-0 h-auto`}
+                  onClick={() => {
+                    const caseId = index === 0 ? 'ghl-crm' : index === 1 ? 'clickfunnels-optimization' : index === 2 ? 'video-marketing' : 'ghl-crm';
+                    window.location.href = `/case-study?id=${caseId}`;
+                  }}
+                >
                   {item.buttonText}
                 </Button>
               </div>

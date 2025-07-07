@@ -24,10 +24,31 @@ export default function Hero() {
               We specialize in GoHighLevel automation, ClickFunnels optimization, and professional video editing. Trusted by 500+ businesses with $50M+ in revenue generated.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-gradient-to-r from-[hsl(var(--ghl-blue))] to-[hsl(var(--cf-red))] text-white px-8 py-4 text-lg font-semibold hover:scale-105 transition-transform">
+              <Button 
+                className="bg-gradient-to-r from-[hsl(var(--ghl-blue))] to-[hsl(var(--cf-red))] text-white px-8 py-4 text-lg font-semibold hover:scale-105 transition-transform"
+                onClick={() => {
+                  const element = document.getElementById('contact');
+                  if (element) {
+                    const headerHeight = 80;
+                    const targetPosition = element.offsetTop - headerHeight;
+                    window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+                  }
+                }}
+              >
                 Get Started Today
               </Button>
-              <Button variant="outline" className="border-2 border-white text-white px-8 py-4 text-lg font-semibold hover:bg-white hover:text-slate-900 transition-colors">
+              <Button 
+                variant="outline" 
+                className="border-2 border-white text-white px-8 py-4 text-lg font-semibold hover:bg-white hover:text-slate-900 transition-colors"
+                onClick={() => {
+                  const element = document.getElementById('portfolio');
+                  if (element) {
+                    const headerHeight = 80;
+                    const targetPosition = element.offsetTop - headerHeight;
+                    window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+                  }
+                }}
+              >
                 View Our Work
               </Button>
             </div>

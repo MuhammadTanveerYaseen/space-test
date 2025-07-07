@@ -18,10 +18,31 @@ export default function CTA() {
           <h2 className="text-4xl font-bold text-white mb-6">Ready to Transform Your Business?</h2>
           <p className="text-xl text-white/90 mb-8">Join hundreds of successful businesses that have scaled with our premium digital solutions.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-white text-[hsl(var(--ghl-blue))] px-8 py-4 text-lg font-semibold hover:bg-slate-100 transition-colors">
+            <Button 
+              className="bg-white text-[hsl(var(--ghl-blue))] px-8 py-4 text-lg font-semibold hover:bg-slate-100 transition-colors"
+              onClick={() => {
+                const element = document.getElementById('contact');
+                if (element) {
+                  const headerHeight = 80;
+                  const targetPosition = element.offsetTop - headerHeight;
+                  window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+                }
+              }}
+            >
               Schedule Free Consultation
             </Button>
-            <Button variant="outline" className="border-2 border-white text-white px-8 py-4 text-lg font-semibold hover:bg-white hover:text-[hsl(var(--ghl-blue))] transition-colors">
+            <Button 
+              variant="outline" 
+              className="border-2 border-white text-white px-8 py-4 text-lg font-semibold hover:bg-white hover:text-[hsl(var(--ghl-blue))] transition-colors"
+              onClick={() => {
+                const element = document.getElementById('pricing');
+                if (element) {
+                  const headerHeight = 80;
+                  const targetPosition = element.offsetTop - headerHeight;
+                  window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+                }
+              }}
+            >
               View Pricing Plans
             </Button>
           </div>
