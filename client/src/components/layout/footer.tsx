@@ -73,8 +73,15 @@ export default function Footer() {
           </div>
         </div>
         
-        <div className="border-t border-slate-800 pt-8 text-center">
-          <p className="text-slate-400">&copy; 2024 GHLSPACE. All rights reserved. | Privacy Policy | Terms of Service</p>
+        <div className="border-t border-slate-800 pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <p className="text-slate-400 mb-4 md:mb-0">&copy; 2025 GHLSPACE. All rights reserved. | Privacy Policy | Terms of Service</p>
+            <div className="flex items-center space-x-6 text-slate-400 text-sm">
+              <span>🏆 500+ Projects Delivered</span>
+              <span>💰 $50M+ Revenue Generated</span>
+              <span>⭐ 98% Client Satisfaction</span>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

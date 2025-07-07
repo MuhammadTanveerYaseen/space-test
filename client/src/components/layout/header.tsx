@@ -34,8 +34,8 @@ export default function Header() {
               <button onClick={() => scrollToSection('home')} className="text-slate-700 hover:text-[hsl(var(--ghl-blue))] transition-colors">Home</button>
               <button onClick={() => scrollToSection('about')} className="text-slate-700 hover:text-[hsl(var(--ghl-blue))] transition-colors">About</button>
               <button onClick={() => scrollToSection('services')} className="text-slate-700 hover:text-[hsl(var(--ghl-blue))] transition-colors">Services</button>
+              <button onClick={() => scrollToSection('pricing')} className="text-slate-700 hover:text-[hsl(var(--ghl-blue))] transition-colors">Pricing</button>
               <button onClick={() => scrollToSection('portfolio')} className="text-slate-700 hover:text-[hsl(var(--ghl-blue))] transition-colors">Portfolio</button>
-              <button onClick={() => scrollToSection('testimonials')} className="text-slate-700 hover:text-[hsl(var(--ghl-blue))] transition-colors">Testimonials</button>
               <button onClick={() => scrollToSection('contact')} className="text-slate-700 hover:text-[hsl(var(--ghl-blue))] transition-colors">Contact</button>
             </div>
             
@@ -67,8 +67,8 @@ export default function Header() {
               <button onClick={() => scrollToSection('home')} className="text-slate-700 text-lg text-left">Home</button>
               <button onClick={() => scrollToSection('about')} className="text-slate-700 text-lg text-left">About</button>
               <button onClick={() => scrollToSection('services')} className="text-slate-700 text-lg text-left">Services</button>
+              <button onClick={() => scrollToSection('pricing')} className="text-slate-700 text-lg text-left">Pricing</button>
               <button onClick={() => scrollToSection('portfolio')} className="text-slate-700 text-lg text-left">Portfolio</button>
-              <button onClick={() => scrollToSection('testimonials')} className="text-slate-700 text-lg text-left">Testimonials</button>
               <button onClick={() => scrollToSection('contact')} className="text-slate-700 text-lg text-left">Contact</button>
             </div>
           </div>

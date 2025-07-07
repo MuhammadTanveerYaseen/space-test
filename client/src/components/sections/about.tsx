@@ -18,7 +18,7 @@ export default function About() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl font-bold text-slate-900 mb-6">Why Choose GHLSPACE?</h2>
-          <p className="text-xl text-slate-600 max-w-3xl mx-auto">We're not just another agency. We're your dedicated partners in digital transformation, combining cutting-edge technology with proven strategies.</p>
+          <p className="text-xl text-slate-600 max-w-3xl mx-auto">We're not just another agency. We're your dedicated partners in digital transformation, with 500+ successful projects and $50M+ in client revenue generated.</p>
         </motion.div>
         
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">

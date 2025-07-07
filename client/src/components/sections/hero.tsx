@@ -21,7 +21,7 @@ export default function Hero() {
               />
             </h1>
             <p className="text-xl text-slate-300 mb-8 leading-relaxed">
-              We specialize in GoHighLevel automation, ClickFunnels optimization, and professional video editing to skyrocket your conversions and streamline your operations.
+              We specialize in GoHighLevel automation, ClickFunnels optimization, and professional video editing. Trusted by 500+ businesses with $50M+ in revenue generated.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="bg-gradient-to-r from-[hsl(var(--ghl-blue))] to-[hsl(var(--cf-red))] text-white px-8 py-4 text-lg font-semibold hover:scale-105 transition-transform">

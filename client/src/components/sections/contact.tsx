@@ -60,7 +60,7 @@ export default function Contact() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-4xl font-bold text-slate-900 mb-6">Get In Touch</h2>
-            <p className="text-xl text-slate-600 mb-8">Ready to start your digital transformation? Let's discuss how we can help you achieve your goals.</p>
+            <p className="text-xl text-slate-600 mb-8">Ready to start your digital transformation? Join 500+ successful businesses that have transformed with GHLSPACE.</p>
             
             <div className="space-y-6">
               <div className="flex items-center space-x-4">
