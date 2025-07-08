@@ -47,7 +47,7 @@ export default function Hero() {
                   Scale Your Business with
                   <TypingAnimation 
                     text="Premium Automation"
-                    className="gradient-text block mt-2"
+                    className="block mt-2"
                     duration={2500}
                   />
                 </h1>
@@ -67,15 +67,15 @@ export default function Hero() {
                 transition={{ duration: 0.6, delay: 0.4 }}
               >
                 <div className="text-center">
-                  <div className="text-3xl font-bold gradient-text" style={{background: 'linear-gradient(135deg, hsl(var(--ghl-blue)) 0%, hsl(var(--cf-red)) 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', fontWeight: '800'}}>500+</div>
+                  <div className="text-3xl font-bold gradient-text">500+</div>
                   <div className="text-sm" style={{color: 'rgb(203 213 225)', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.6)'}}>Projects</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold gradient-text" style={{background: 'linear-gradient(135deg, hsl(var(--ghl-blue)) 0%, hsl(var(--cf-red)) 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', fontWeight: '800'}}>$50M+</div>
+                  <div className="text-3xl font-bold gradient-text">$50M+</div>
                   <div className="text-sm" style={{color: 'rgb(203 213 225)', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.6)'}}>Revenue</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold gradient-text" style={{background: 'linear-gradient(135deg, hsl(var(--ghl-blue)) 0%, hsl(var(--cf-red)) 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', fontWeight: '800'}}>98%</div>
+                  <div className="text-3xl font-bold gradient-text">98%</div>
                   <div className="text-sm" style={{color: 'rgb(203 213 225)', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.6)'}}>Satisfaction</div>
                 </div>
               </motion.div>
@@ -115,7 +115,7 @@ export default function Hero() {
                     }
                   }}
                 >
-                  <Play className="mr-2 h-5 w-5" />
+                  <Play className="mr-2 h-5 w-5 color: 'black'" />
                   Watch Success Stories
                 </Button>
               </motion.div>
