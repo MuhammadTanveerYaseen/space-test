@@ -39,6 +39,18 @@ export default function TypingAnimation({
         isComplete && "border-r-transparent",
         className
       )}
+      style={{
+        borderRight: isComplete ? 'none' : '2px solid #3b82f6',
+        display: 'inline-block',
+        whiteSpace: 'nowrap',
+        overflow: 'hidden',
+        borderRightColor: isComplete ? 'transparent' : '#3b82f6',
+        animation: isComplete ? 'none' : 'blink 1s infinite',
+        background: 'linear-gradient(135deg, #3b82f6 0%, #ef4444 100%)',
+        WebkitBackgroundClip: 'text',
+        WebkitTextFillColor: 'transparent',
+        backgroundClip: 'text'
+      }}
     >
       {displayedText}
     </span>

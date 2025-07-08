@@ -33,7 +33,7 @@ export default function Hero() {
                 transition={{ duration: 0.6, delay: 0.2 }}
               >
                 <Star className="h-4 w-4 text-yellow-400 fill-current" />
-                <span className="text-sm font-medium">Trusted by 500+ Businesses</span>
+                <span className="text-sm font-medium" style={{color: 'white', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.6)'}}>Trusted by 500+ Businesses</span>
                 <div className="flex space-x-1">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="h-3 w-3 text-yellow-400 fill-current" />
@@ -43,7 +43,7 @@ export default function Hero() {
 
               {/* Main Headline */}
               <div>
-                <h1 className="text-5xl lg:text-7xl font-bold mb-4 leading-tight hero-text">
+                <h1 className="text-5xl lg:text-7xl font-bold mb-4 leading-tight" style={{color: 'white', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.8)'}}>
                   Scale Your Business with
                   <TypingAnimation 
                     text="Premium Automation"
@@ -51,8 +51,8 @@ export default function Hero() {
                     duration={2500}
                   />
                 </h1>
-                <p className="text-xl lg:text-2xl hero-subtext leading-relaxed">
-                  We've generated <span className="text-green-400 font-bold">$50M+</span> in revenue for 500+ businesses through 
+                <p className="text-xl lg:text-2xl leading-relaxed" style={{color: 'rgb(203 213 225)', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.6)'}}>
+                  We've generated <span className="text-green-400 font-bold" style={{color: '#4ade80', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.6)'}}>$50M+</span> in revenue for 500+ businesses through 
                   <span className="gradient-text font-semibold"> GoHighLevel automation</span>, 
                   <span className="gradient-text font-semibold"> ClickFunnels optimization</span>, and 
                   <span className="gradient-text font-semibold"> viral video content</span>.
@@ -67,16 +67,16 @@ export default function Hero() {
                 transition={{ duration: 0.6, delay: 0.4 }}
               >
                 <div className="text-center">
-                  <div className="text-3xl font-bold gradient-text">500+</div>
-                  <div className="hero-subtext text-sm">Projects</div>
+                  <div className="text-3xl font-bold gradient-text" style={{background: 'linear-gradient(135deg, hsl(var(--ghl-blue)) 0%, hsl(var(--cf-red)) 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', fontWeight: '800'}}>500+</div>
+                  <div className="text-sm" style={{color: 'rgb(203 213 225)', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.6)'}}>Projects</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold gradient-text">$50M+</div>
-                  <div className="hero-subtext text-sm">Revenue</div>
+                  <div className="text-3xl font-bold gradient-text" style={{background: 'linear-gradient(135deg, hsl(var(--ghl-blue)) 0%, hsl(var(--cf-red)) 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', fontWeight: '800'}}>$50M+</div>
+                  <div className="text-sm" style={{color: 'rgb(203 213 225)', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.6)'}}>Revenue</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold gradient-text">98%</div>
-                  <div className="hero-subtext text-sm">Satisfaction</div>
+                  <div className="text-3xl font-bold gradient-text" style={{background: 'linear-gradient(135deg, hsl(var(--ghl-blue)) 0%, hsl(var(--cf-red)) 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', fontWeight: '800'}}>98%</div>
+                  <div className="text-sm" style={{color: 'rgb(203 213 225)', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.6)'}}>Satisfaction</div>
                 </div>
               </motion.div>
 
@@ -122,13 +122,13 @@ export default function Hero() {
 
               {/* Guarantee */}
               <motion.div 
-                className="flex items-center space-x-2 hero-subtext"
+                className="flex items-center space-x-2"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.6, delay: 0.8 }}
               >
                 <Award className="h-5 w-5 text-yellow-400" />
-                <span className="text-sm hero-text">100% Money-Back Guarantee • No Long-Term Contracts</span>
+                <span className="text-sm" style={{color: 'rgb(203 213 225)', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.6)'}}>100% Money-Back Guarantee • No Long-Term Contracts</span>
               </motion.div>
             </motion.div>
 
