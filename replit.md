@@ -7,13 +7,14 @@ GHLSPACE is a modern, full-stack React application built for a digital agency sp
 ## System Architecture
 
 ### Frontend Architecture
-- **Framework**: React 18 with TypeScript
+- **Framework**: Next.js 14 with App Router and React 18 with TypeScript
 - **Styling**: Tailwind CSS with custom CSS variables for theming
 - **UI Components**: Radix UI primitives with shadcn/ui component library
 - **Animations**: Framer Motion for smooth scroll animations and interactions
-- **Routing**: Wouter for lightweight client-side routing
+- **Routing**: Next.js App Router with file-based routing
 - **State Management**: TanStack Query for server state management
 - **Form Handling**: React Hook Form with Zod validation
+- **API Routes**: Next.js API routes for server-side functionality
 
 ### Backend Architecture
 - **Runtime**: Node.js with Express.js server
@@ -135,6 +136,13 @@ GHLSPACE is a modern, full-stack React application built for a digital agency sp
   - Added comprehensive pricing, FAQ, and certification sections
   - Enhanced portfolio with clickable case studies
   - Improved overall user experience with working CTAs
+- July 08, 2025. Converted entire codebase from React/Vite to Next.js:
+  - Migrated all components to Next.js App Router structure
+  - Added 'use client' directives to all interactive components
+  - Fixed hero section text color visibility issues with CSS overrides
+  - Created API routes for contact form handling
+  - Updated TypeScript configuration for Next.js
+  - Enhanced hero section with better animations and social proof
 
 ## User Preferences
 
